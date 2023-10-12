@@ -1,0 +1,48 @@
+html, body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.parentForm {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border: 2px solid;
+  padding: 20px;
+}
+
+.btnCreate {
+  border: none;
+  background-color: navy;
+  color: #fff;
+  padding: 8px 10px;
+}
+
+.btnCreate:hover {
+  cursor: pointer;
+  background: orange;
+  color: brown;
+}
+
+.itemStyle {
+  background-color: lightblue;
+  border: 2px solid;
+  padding: 1rem;
+  width: 20%;
+}
+
+
+button:nth-child(1) {
+  border: none;
+  padding: 8px 10px;
+  background: red;
+  margin-left: 10px;
+}
+
+.btnStyleEdit {
+  border: none;
+  padding: 8px 10px;
+  background: orange;
+  margin-left: 10px;
+}
